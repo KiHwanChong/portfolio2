@@ -1,22 +1,22 @@
-
+/*This fixes padding of the title of each page.*/
 div{
-    border-style: solid;
     border-width: 5px;
     padding: 30px;
-    border-color: green;
 }
 
-.container {
-    border-color: white;
-}
-
-.row{
-    border-color: white;
-}
-/*this id selector adjusts the margin of the items to look nice*/ 
+/*This class that adjusts the margin of the items to look nice*/ 
 .list-group-item {
     border: 0;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
+/*I used background image. In order to fill the entire page I used no repeat and 100% width and height.
+Also, I sized up the font throught out the whole pages.*/
+body {
+    background-image: url(http://www.pptback.com/uploads/abstract-white-cool-backgrounds-powerpoint.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 23px;
+        
+}
