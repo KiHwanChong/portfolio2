@@ -2,6 +2,11 @@
 div{
     border-width: 5px;
     padding: 30px;
+    margin: 0px;
+}
+
+.clean {
+    width: 1348px;
 }
 
 /*This class that adjusts the margin of the items to look nice*/ 
@@ -14,18 +19,26 @@ div{
 /*I used background image. In order to fill the entire page I used no repeat and 100% width and height.
 Also, I sized up the font throught out the whole pages.*/
 body {
+    font-size: 23px;
+}
+
+.bg1 {
     background-image: url(http://www.pptback.com/uploads/abstract-white-cool-backgrounds-powerpoint.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    font-size: 23px;
 }
 /*Each class for different background image on each page.*/
 .bg2 {
-    background-image: url(http://www.funchap.com/wp-content/uploads/2014/01/Abstract-Color-Background.jpg)
+    background-image: url(http://www.funchap.com/wp-content/uploads/2014/01/Abstract-Color-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
+
 .bg3{
-    background-image: url(http://www.funchap.com/wp-content/uploads/2014/01/abstract-white-wallpapers.jpg)
+    background-image: url(http://www.funchap.com/wp-content/uploads/2014/01/abstract-white-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 /*A class to increase the size of the font of the title on each page*/
 .title {
